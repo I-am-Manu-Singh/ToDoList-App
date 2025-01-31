@@ -46,7 +46,7 @@ TaskAppInJava/
 - markAsCompleted(): Marks a task as completed.
 ```
 
-3️⃣ ExpenseApp.java
+3️⃣ ToDoApp.java
 - User interface for interacting with tasks.
 ```yaml
 - main(): Runs the app, allowing users to choose actions (add, remove, update, view, mark as completed, exit).
