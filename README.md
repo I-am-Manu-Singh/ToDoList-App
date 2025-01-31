@@ -26,6 +26,32 @@ TaskAppInJava/
 │-- ToDoApp.java      # Main application file with user menu
 ```
 ---
+## 🔹 File Use Cases
+1️⃣ Task.java
+- Represents a task with properties: title, description, category, deadline, priority, and completion status.
+```yaml
+- Constructor: Initializes a task with the specified properties.
+- Getters: Retrieve task details (e.g., title, description, priority).
+- Setters: Modify task properties (e.g., description, deadline, priority).
+- toString(): Provides a formatted string of the task details.
+```
+
+2️⃣ TaskManager.java
+- Manages the list of tasks and handles task operations.
+```yaml
+- addTask(): Adds a new task.
+- removeTask(): Removes a task by title.
+- updateTask(): Updates task details (description, deadline, priority).
+- viewTasks(): Displays all tasks.
+- markAsCompleted(): Marks a task as completed.
+```
+
+3️⃣ ExpenseApp.java
+- User interface for interacting with tasks.
+```yaml
+- main(): Runs the app, allowing users to choose actions (add, remove, update, view, mark as completed, exit).
+```
+---
 ## How to Run
 
 - Clone this repository:
