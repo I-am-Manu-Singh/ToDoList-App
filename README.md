@@ -1,6 +1,6 @@
-# To-Do List App in Java
+# 📃To-Do List App in Java
 
-## Overview
+## 🌐Overview
 
 - This is a simple To-Do List App built using Java. The application allows users to manage tasks efficiently by adding, updating, removing, and marking them as completed.
 
@@ -18,7 +18,7 @@
 
 - Mark tasks as completed
 ---
-## Project Structure
+## 🏗Project Structure
 ```yaml
 TaskAppInJava/
 │-- Task.java         # Represents a Task entity
@@ -52,7 +52,7 @@ TaskAppInJava/
 - main(): Runs the app, allowing users to choose actions (add, remove, update, view, mark as completed, exit).
 ```
 ---
-## How to Run
+## 🛠How to Run
 
 - Clone this repository:
 
@@ -79,28 +79,7 @@ java ToDoApp
 ```
 ---
 
-## Usage
-
-- Once the application starts, a menu will be displayed with options to:
-
-```yaml
-Add Task
-
-Remove Task
-
-View Tasks
-
-Update Task
-
-Mark Task as Completed
-
-Exit
-
-Enter the corresponding number to perform the desired action.
-```
-
----
-## Usage
+## 🖥Usage
 
 - Adding a Task
 ```yaml
@@ -127,6 +106,6 @@ Task marked as completed!
 ```
 ---
 
-## License
+## 📝License
 
 - This project is licensed under the MIT License.
