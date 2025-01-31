@@ -2,21 +2,21 @@
 
 ## Overview
 
-This is a simple To-Do List App built using Java. The application allows users to manage tasks efficiently by adding, updating, removing, and marking them as completed.
+#This is a simple To-Do List App built using Java. The application allows users to manage tasks efficiently by adding, updating, removing, and marking them as completed.
 
 ---
 
 ## Features
 
-Add new tasks with details (title, description, category, deadline, priority)
+#Add new tasks with details (title, description, category, deadline, priority)
 
-View all tasks
+#View all tasks
 
-Update existing tasks
+#Update existing tasks
 
-Remove tasks
+#Remove tasks
 
-Mark tasks as completed
+#Mark tasks as completed
 ---
 ## Project Structure
 ```yaml
@@ -28,28 +28,36 @@ TaskAppInJava/
 ---
 ## How to Run
 
-Clone this repository:
+#Clone this repository:
 
 ```shell
 git clone https://github.com/your-username/ToDoAppInJava.git
 ```
 
-Navigate to the project folder:
+#Navigate to the project folder:
 
+```yaml
 cd ToDoAppInJava
+```
 
-Compile the Java files:
+#Compile the Java files:
 
+```yaml
 javac Task.java TaskManager.java ToDoApp.java
+```
 
-Run the application:
+#Run the application:
 
+```yaml
 java ToDoApp
+```
+---
 
-Usage
+## Usage
 
-Once the application starts, a menu will be displayed with options to:
+#Once the application starts, a menu will be displayed with options to:
 
+```yaml
 Add Task
 
 Remove Task
@@ -63,10 +71,12 @@ Mark Task as Completed
 Exit
 
 Enter the corresponding number to perform the desired action.
+```
+
 ---
 ## Usage
 
-Adding a Task
+#Adding a Task
 ```yaml
 Enter Task title: Study Java
 Enter Task description: Revise OOP concepts
@@ -74,7 +84,7 @@ Enter Task category: Education
 Enter Task deadline (YYYY-MM-DDTHH:MM): 2025-02-01T18:00
 Enter Task priority (High, Medium, Low): High
 ```
-Viewing Tasks
+#Viewing Tasks
 ```yaml
 Task: Study Java
 Category: Education
@@ -84,16 +94,13 @@ Completed: No
 Description: Revise OOP concepts
 ```
 
-Marking Task as Completed
+#Marking Task as Completed
 ```yaml
 Enter Task title to mark as completed: Study Java
 Task marked as completed!
 ```
 ---
-## Contributions
 
-Contributions are welcome! Feel free to fork this repository and submit pull requests.
----
 ## License
 
 This project is licensed under the MIT License.
