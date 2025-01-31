@@ -6,7 +6,7 @@
 
 ---
 
-## Features
+## 🪭Features
 
 - Add new tasks with details (title, description, category, deadline, priority)
 
